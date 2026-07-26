@@ -1,0 +1,16 @@
+{
+  "name": "reclamo-core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "stripe": "^16.2.0",
+    "@anthropic-ai/sdk": "^0.27.0",
+    "resend": "^4.0.0",
+    "dotenv": "^16.4.5"
+  }
+}
